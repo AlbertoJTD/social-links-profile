@@ -72,7 +72,7 @@ body {
   text-align: center;
 }
 
-.card__links div {
+.card__links a {
   text-decoration: none;
   color: var(--white);
   display: block;
@@ -82,7 +82,7 @@ body {
   border-radius: 10px;
 }
 
-.card__links div:hover {
+.card__links a:hover {
   background-color: var(--green);
   transition: background-color 0.5s ease;
   color: var(--grey-900);
