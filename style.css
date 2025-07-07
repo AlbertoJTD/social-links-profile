@@ -82,6 +82,12 @@ body {
   border-radius: 10px;
 }
 
+.card__links div:hover {
+  background-color: var(--green);
+  transition: background-color 0.5s ease;
+  color: var(--grey-900);
+}
+
 @media (min-width: 365px) {
   .card__container {
     padding: 20px;
